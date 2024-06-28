@@ -1,0 +1,19 @@
+cmd
+cmd -> msg
+cmd ->msglist[] 
+cmd -> err
+
+cmd:
+login -> account -> password
+regist -> account -> password -> name
+logout
+
+friend-search -> search-info
+addfriend-request -> account ->sendmsg
+addfriend-response -> account ->sendmsg
+friend-list -> msglist[]
+
+pchat -> account -> sendmsg//private chat
+gchat -> gaccount -> snedmsg//group chat
+
+parseerror
